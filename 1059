@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+
+	int m;
+
+	for (m=1;m<=100;m++)
+    {
+        if(m%2==0)
+        {
+
+            cout<<m<<endl;
+        }
+
+
+    }
+
+
+
+
+
+
+    return 0;
+}
