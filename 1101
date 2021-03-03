@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+
+
+   int i,j,x,y,k,s;
+
+ while(1){
+
+    cin>>x>>y;
+k=0;
+s=0;
+    if(x<=0||y<=0)
+    {
+
+        break;
+    }
+    if(x>y)
+    {
+
+        for(i=y;i<=x;i++)
+        {
+            cout<<i<<" ";
+            k=k+i;
+
+        }
+        cout<<"Sum="<<k<<endl;
+    }
+
+    if(x<y)
+    {
+
+        for(j=x;j<=y;j++)
+        {
+            cout<<j<<" ";
+            s=s+j;
+
+        }
+        cout<<"Sum="<<s<<endl;
+    }
+
+
+
+ }
+    return 0;
+}
