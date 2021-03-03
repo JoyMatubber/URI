@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+int A,B,C,D;
+cin>>A>>B>>C>>D;
+int s1=A+B;
+int s2=C+D;
+if((B>C && D>A)&&(s1<s2)&&(C>=0&&D>=0)&&(A%2==0) )
+{
+
+
+
+              cout<<"Valores aceitos"<<endl;
+
+
+  }
+
+
+else
+{
+
+    cout<<"Valores nao aceitos"<<endl;
+}
+
+    return 0;
+}
