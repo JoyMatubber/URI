@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+int a;
+float R;
+cin>>a;
+    cin>>R;
+
+
+    double w=a/R;
+    cout<<fixed<<setprecision(3)<<w<<" km/l"<<endl;
+
+    return 0;
+}
