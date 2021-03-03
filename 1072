@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int a;
+   cin>>a;
+   int p;
+   int c=0;
+   int d=0;
+
+
+  for(int i=1;i<=a;i++)
+  {
+      cin>>p;
+
+      if(p>=10 && p<=20)
+      {
+          c=c+1;
+
+      }
+      else
+        {
+        d=d+1;
+      }
+
+
+  }
+  cout<<c<<" in"<<endl;
+
+ cout<<d<<" out"<<endl;
+
+
+    return 0;
+}
