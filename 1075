@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int t;
+   cin>>t;
+   int d=0;
+   int i;
+   for(i=2;i<=10000;i=i+t)
+   {
+
+       cout<<i<<endl;
+
+   }
+    return 0;
+}
