@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+
+
+	float n;
+	int c=0;
+   float s=0;
+
+
+for(int m=1; m<=6; m++)
+{
+ cin>>n;
+
+    if (n>0)
+    {
+      c=c+1;
+      s=s+n;
+
+    }
+
+}
+cout<<c<<" valores positivos"<<endl;
+cout<<fixed<<setprecision(1)<<(s/c)<<endl;
+
+
+
+    return 0;
+}
