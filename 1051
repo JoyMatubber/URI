@@ -1,0 +1,50 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+float n;
+double d,d1,d2,s,s1,s2;
+cin>>n;
+if(n>=0.00 && n<=2000.00)
+{
+
+    cout<<"Isento"<<endl;
+}
+ if(n>=2000.01 && n<=3000.00)
+{
+  d=n-2000.00;
+  s=d*0.08;
+  cout<<"R$ "<<fixed<<setprecision(2)<<s<<endl;
+
+}
+ if(n>=3000.01 && n<=4500.00)
+{
+
+    d=3000-2000.00;
+    s=d*0.08;
+    d1=n-3000.00;
+    s1=d1*0.18;
+    cout<<"R$ "<<fixed<<setprecision(2)<<s+s1<<endl;
+
+}
+if(n>=4500.01)
+{
+    s=1000*0.08;
+    s1=1500*0.18;
+    d2=n-4500.00;
+    s2=d2*0.28;
+    cout<<"R$ "<<fixed<<setprecision(2)<<s+s1+s2<<endl;
+
+
+}
+
+
+
+
+
+
+
+    return 0;
+}
