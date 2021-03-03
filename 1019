@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    int n;
+    cin>>n;
+    int h=n/3600;
+    int a=n-(h*3600);
+    int m=a/60;
+    int b=a-(m*60);
+    int s=b/60;
+    cout <<h<<":"<<m<<":"<<b<< endl;
+    return 0;
+}
