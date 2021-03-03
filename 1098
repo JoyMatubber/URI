@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main()
+{
+    float i,j,c=1.0;
+    for(i=0;i<=2.2;i=i+0.2)
+    {
+
+
+
+        for(j=c;j<=3;j++)
+        {
+
+            cout<<"I="<<i<<" J="<<i+j<<endl;
+        }
+
+    }
+
+
+}
+
+
+
