@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+     int n,a;
+    float b;
+    cin>>n;
+    cin>>a;
+    cin>>b;
+    float s=a*b;
+    cout<<"NUMBER = "<<n<<endl;
+    cout<<"SALARY = U$ "<<fixed<<setprecision(2)<<s<<endl;
+
+
+    return 0;
+
+
+    return 0;
+}
