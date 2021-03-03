@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    double A,B;
+    cin>>A>>B;
+    if(A>B)
+    {
+        int c=(B+24)-A;
+        cout<<"O JOGO DUROU "<<c<<" HORA(S)"<<endl;
+
+    }
+    if(A==B)
+    {
+        int c3=(B+24)-A;
+
+          cout<<"O JOGO DUROU "<<c3<<" HORA(S)"<<endl;
+
+    }
+   if(B>A)
+    {
+
+
+    int c1=(B-A);
+    cout<<"O JOGO DUROU "<<c1<<" HORA(S)"<<endl;
+    }
+
+
+
+
+    return 0;
+}
