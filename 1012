@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    double a,b,c;
+  double  pi = 3.14159;
+    cin>>a>>b>>c;
+    double t=(a*c)/2;
+    double co=pi*c*c;
+    double te=((a+b)*c)/2;
+    double s=b*b;
+    double re=a*b;
+    cout<<fixed<<setprecision(3)<<"TRIANGULO: "<<t<<endl;
+     cout<<fixed<<setprecision(3)<<"CIRCULO: "<<co<<endl;
+      cout<<fixed<<setprecision(3)<<"TRAPEZIO: "<<te<<endl;
+      cout<<fixed<<setprecision(3)<<"QUADRADO: "<<s<<endl;
+      cout<<fixed<<setprecision(3)<<"RETANGULO: "<<re<<endl;
+
+    return 0;
+}
