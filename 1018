@@ -1,0 +1,37 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+
+    int N;
+     cin>>N;
+    if(N>0 && N<1000000)
+{
+
+
+    int h=N/100;
+    int a=N-(h*100);
+    int m=a/50;
+    int b=a-(m*50);
+    int s=b/20;
+    int d=b-(s*20);
+    int e=d/10;
+    int f=d-(e*10);
+    int g=f/5;
+    int l=f-(g*5);
+    int i=l/2;
+    int j=l-(i*2);
+
+cout<<N<<endl;
+    cout <<h<<" nota(s) de R$ 100,00"<< endl;
+    cout <<m<<" nota(s) de R$ 50,00"<< endl;
+    cout <<s<<" nota(s) de R$ 20,00"<< endl;
+    cout <<e<<" nota(s) de R$ 10,00"<< endl;
+    cout <<g<<" nota(s) de R$ 5,00"<< endl;
+    cout <<i<<" nota(s) de R$ 2,00"<< endl;
+    cout <<j<<" nota(s) de R$ 1,00"<< endl;
+    }
+    return 0;
+}
