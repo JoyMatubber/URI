@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b;
+    cin>>a;
+
+
+int i ;
+
+
+    for( i=2; i<=a; i++)
+    {
+        if(i%2==0)
+        {
+
+             int s=i*i;
+              cout<<i<<"^"<<"2 = "<<s<< endl;
+        }
+
+    }
+
+
+
+
+
+    return 0;
+}
