@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+string s;
+cin>>s;
+float a,b;
+    cin>>a;
+    cin>>b;
+    double w=a+b*0.15;
+    cout<<"TOTAL = R$ "<<fixed<<setprecision(2)<<w<<endl;
+
+    return 0;
+}
