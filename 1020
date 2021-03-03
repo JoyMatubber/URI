@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+
+    int N;
+     cin>>N;
+
+    int Y=N/365;
+    int a=N-(Y*365);
+    int m=a/30;
+    int d=a-(m*30);
+
+
+    cout <<Y<<" ano(s)"<< endl;
+    cout <<m<<" mes(es)"<< endl;
+    cout <<d<<" dia(s)"<< endl;
+
+    return 0;
+}
