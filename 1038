@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int X,Y;
+    cin>>X>>Y;
+    if(X==1)
+    {
+        double p=4.00*Y;
+        cout<<fixed<<setprecision(2)<<"Total: R$ "<<p<<endl;
+    }
+    if(X==2)
+    {
+        double p1=4.5*Y;
+        cout<<fixed<<setprecision(2)<<"Total: R$ "<<p1<<endl;
+
+    }
+     if(X==3)
+    {
+        double p3=5.00*Y;
+        cout<<fixed<<setprecision(2)<<"Total: R$ "<<p3<<endl;
+
+    }
+     if(X==4)
+    {
+        double p4=2.00*Y;
+        cout<<fixed<<setprecision(2)<<"Total: R$ "<<p4<<endl;
+
+    }
+     if(X==5)
+    {
+        double p4=1.50*Y;
+        cout<<fixed<<setprecision(2)<<"Total: R$ "<<p4<<endl;
+
+    }
+
+
+
+    return 0;
+}
