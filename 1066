@@ -1,0 +1,59 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+
+
+
+    int n;
+
+	int c=0;
+	int s=0;
+	int t=0;
+	int d=0;
+
+
+for(int i=1;i<=5;i++)
+{
+     cin>>n;
+
+
+    if (n%2==0)
+    {
+      c=c+1;
+
+
+    }
+
+    if(n%2!=0)
+    {
+
+        s=s+1;
+    }
+    if(n>0)
+    {
+
+        t=t+1;
+    }
+     if(n<0)
+    {
+
+        d=d+1;
+    }
+
+}
+
+
+cout<<c<<" valor(es) par(es)"<<endl;
+cout<<s<<" valor(es) impar(es)"<<endl;
+cout<<t<<" valor(es) positivo(s)"<<endl;
+
+cout<<d<<" valor(es) negativo(s)"<<endl;
+
+
+
+
+    return 0;
+}
