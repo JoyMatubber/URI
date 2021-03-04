@@ -1,0 +1,39 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int i,c=0;
+    float n,s=0;
+    while(1)
+    {
+
+        cin>>n;
+        if(n>=0 && n<=10)
+        {
+            s=s+n;
+            c=c+1;
+
+
+        if(c==2)
+        {
+            double d=s/c;
+            cout<<fixed<<setprecision(2)<<"media = "<<d<<endl;
+
+            break;
+        }
+        }
+
+        else
+
+        {
+            cout<<"nota invalida"<<endl;
+        }
+
+
+
+    }
+
+    return 0;
+}
