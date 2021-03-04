@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+
+
+  int c=0;
+    int n;
+    float s=0;
+    while(1)
+    {
+
+     scanf("%d",&n);
+        if(n>=0 && n<=10)
+        {
+            s=s+n;
+            c=c+1;
+
+
+        if(c==2)
+        {
+            float d=s/c;
+            printf("media = %.2f",d);
+            break;
+        }
+        }
+
+        else
+
+        {
+            printf("nota invalida\n");
+        }
+
+    }
+
+    return 0;
+}
