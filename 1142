@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+  int i,j,n;
+
+   int c=1,d=4;
+   cin>>n;
+    for(i=1;i<=n;i++)
+    {
+        for(j=c;j<=d;j++)
+        {
+            if(j%4==0)
+               cout<<"PUM"<<endl;
+            else
+              cout<<j<<" ";
+        }
+        c=c+4; d=d+4;
+    }
+    return 0;
+}
