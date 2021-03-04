@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+     int a,b;
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        cin>>a>>b;
+
+          if(a!=0 && b!=0)
+            {
+                float c=(float)a/b;
+                   cout<<fixed<<setprecision(1)<<c<<endl;
+
+            }
+            if(a==0 && b!=0)
+            {
+              float c1=(float)a/b;
+               cout<<fixed<<setprecision(1)<<c1<<endl;
+
+            }
+           if(a!=0 && b==0)
+            {
+
+                cout<<"divisao impossivel"<<endl;
+            }
+
+
+
+    }
+    return 0;
+
+}
